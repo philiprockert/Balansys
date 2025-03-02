@@ -100,7 +100,7 @@ export default function LandingPage() {
         <section className="py-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">¿Listo para transformar tu negocio?</h2>
-            <p className="text-lg opacity-90 mb-8">Únete a más de 1,000 empresas que ya están optimizando su gestión de clientes</p>
+            <p className="text-lg opacity-90 mb-8">Únete a la optimización de la gestión de clientes</p>
             <a href="#" className="inline-flex items-center px-6 py-3 border border-white bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition">
               Empezar ahora
               <ChevronRight className="ml-2 h-4 w-4" />
