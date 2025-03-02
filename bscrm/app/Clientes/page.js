@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Search, Plus, Edit2, Trash2, Phone, Mail, User } from 'lucide-react';
 import RightSidebar from '@/components/RightSidebar';
 import Webphone from '@/components/Webphone';
+import ModalCreateClient from '@/components/ModalCreateClient';
 const ClientManagement = () => {
   const [clients, setClients] = useState([
     {
@@ -30,6 +31,7 @@ const ClientManagement = () => {
     <div className="p-6 h-full   bg-white    shadow-lg">
         <RightSidebar/>
         <Webphone   />
+        <ModalCreateClient isOpen={isAddingClient} onClose={() => setIsAddingClient(false)} />
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-bold text-gray-800">Gestión de Clientes</h2>

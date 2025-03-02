@@ -44,7 +44,7 @@ const SidebarLayout = ({ children }) => {
         </div>
         <div
         className="mt-auto flex items-center gap-4 p-3 bg-gray-800 bg-opacity-50 rounded-lg cursor-pointer hover:bg-opacity-70 transition-all"
-        whileHover={{ scale: 1.05 }}
+        
       >
         <svg
   xmlns="http://www.w3.org/2000/svg"
