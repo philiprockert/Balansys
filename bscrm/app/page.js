@@ -48,7 +48,7 @@ export default function LandingPage() {
                 <div className="relative w-full max-w-md">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 transform -rotate-6 rounded-2xl shadow-xl opacity-30"></div>
                   <div className="relative bg-white p-6 rounded-2xl shadow-lg">
-                    <img src="/api/placeholder/600/400" alt="BalansysCRM Dashboard" className="rounded-lg" />
+                    <img src="logo.webp" alt="BalansysCRM Dashboard" className="rounded-lg" />
                   </div>
                 </div>
               </div>
